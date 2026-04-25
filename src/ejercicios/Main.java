@@ -45,7 +45,14 @@ public class Main {
 	Trabajador elEmpleado = new TrabajadorPorHora(40, 50.0);{ // 40 horas a Q50 cada una 
     System.out.println("El pago total del trabajador es: Q" + elEmpleado.calcularPago());
 }
-	
+	/*EXPLICACIÓN DE HERENCIA:
+	 * La herencia fua aplicada mediante la palabra reservada 'extends' que permite heredar de una clase a otra. 
+	 * Esto me permitio que las clases hijas (Perro, Rectangulo, Vendedor,CuentaAhorro,Avion,Estudiante, Motocicleta, Producto digital, 
+	 * Guitarra y TrabajadorPorHora) hereden 
+	 * los atributos y métodos de sus clases padres (Instrumento, Trabajador),
+	 * promoviendo la reutilización de código.
+	 */ 
+	 
 }
 
 
