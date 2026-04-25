@@ -34,7 +34,17 @@ public class Main {
     miMoto.encender();
 }
 
-	
+	Producto miEbook = new ProductoDigital("Libro Java", 150.0, "www.descarga.com/java");{
+    miEbook.mostrarDescripcion();
+}
+
+	Instrumento miInstrumento = new Guitarra();{
+    miInstrumento.tocar();
+}
+
+	Trabajador elEmpleado = new TrabajadorPorHora(40, 50.0);{ // 40 horas a Q50 cada una 
+    System.out.println("El pago total del trabajador es: Q" + elEmpleado.calcularPago());
+}
 	
 }
 
