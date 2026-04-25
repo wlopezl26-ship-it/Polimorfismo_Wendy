@@ -1,5 +1,8 @@
 package ejercicios;
 
-public class Avion {
-
+public class Avion extends Transporte {
+    @Override
+    public void moverse() {
+        System.out.println("El avión está volando por los aires. ✈️");
+    }
 }

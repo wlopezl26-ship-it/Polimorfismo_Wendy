@@ -23,6 +23,18 @@ public class Main {
     miCuenta.mostrarSaldo();
 }
 	
+	Transporte miVehiculo = new Avion();{
+    miVehiculo.moverse();
+}
+	Persona alguien = new Estudiante("Wendy", "2024-001", "Ingeniería en Sistemas");{
+    alguien.presentarse();
+}
+
+	Vehiculo miMoto = new Motocicleta();{
+    miMoto.encender();
+}
+
+	
 	
 }
 
